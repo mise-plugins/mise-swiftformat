@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-GH_REPO="https://github.com/nicklockwood/SwiftFormat"
+GH_REPO="${MISE_SWIFTFORMAT_INSTALL_URL:-https://github.com/nicklockwood/SwiftFormat}"
 TOOL_NAME="swiftformat"
 TOOL_TEST="swiftformat --help"
 
